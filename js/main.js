@@ -22,7 +22,8 @@ $(document).ready(function(){
 		valid = validTextbox('#txtPhone', 'msgPhone', /^[0-9]+$/);
 
 		if (valid) {
-			$('form')[0].submit();
+			//$('form')[0].submit();
+			document.location.href = 'puzzel-game.html';
 		}
 	});
 
